@@ -1,0 +1,32 @@
+name: firebase_authv1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  firebase_auth: ^5.1.1
+  firebase_core: ^3.1.1
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/navbar/
+    - assets/images/icons/
+    - assets/images/genreImages/
+    - assets/images/songs/
+    - assets/audio/
+    - assets/audio/baby.mp3
+
